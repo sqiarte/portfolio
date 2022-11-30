@@ -3,9 +3,6 @@
     width: 90%;
     background-color:transparent;
     padding:0px 100px;
-    /* display:flex;
-    align-items: center;
-    justify-content: flex-end; */
     position: fixed;
     z-index: 10;
 }
@@ -25,7 +22,6 @@ li {
 }
 
 li:hover {
-    /* font-size: 30px; */
     text-decoration: underline;
     text-decoration-color:red;
     cursor: pointer;
@@ -58,16 +54,9 @@ a:hover {
 }
 
 @media only screen and (max-width: 600px) { 
-/* li {
-    padding: 0px 10px;
-    font-size: 16px;
-    letter-spacing: 1px; 
-} */
-
 .navbar {
     display: none;
 }
-
 }
 
 
@@ -85,9 +74,4 @@ a:hover {
     align-items: center;
     width: 100%;
 }
-
-/* ul {
-    width: 100vw;
-    margin:0px;
-} */
 }

@@ -10,7 +10,6 @@ function Hero() {
       <div className={style.content}>
         <div className={style.leftcon}>
           <h1 className={style.textone}>Suebkwan Nawayuth</h1>
-          {/*<h2 className={style.texttwo}>👓 Fullstack developer</h2>*/}
           <h3 className={style.textthree}>
             I am a former veterinarian who has passion in software development,{" "}
             <br></br>I am excited to start a new journey as a fullstack

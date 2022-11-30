@@ -5,6 +5,7 @@ import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import { Button, CardActionArea, CardActions } from "@mui/material";
 import style from './Project.module.css'
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 function Cardproject(props) {
   return (
@@ -27,7 +28,7 @@ function Cardproject(props) {
         </CardActionArea>
         <CardActions>
           <Button size='small' color='primary'>
-            click
+            <GitHubIcon sx={{color:"black"}} />
           </Button>
         </CardActions>
       </Card>

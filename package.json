@@ -6,6 +6,7 @@
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
     "@lottiefiles/lottie-interactivity": "^1.6.1",
+    "@mui/icons-material": "^5.10.16",
     "@mui/material": "^5.10.14",
     "@splinetool/react-spline": "^2.2.3",
     "@splinetool/runtime": "^0.9.142",

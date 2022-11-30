@@ -3,7 +3,6 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  /* background: white; */
   height: 100vh;
   background-image: url("../../img/bg-02-00-PhotoRoom.jpg");
   background-size: 1950px;
