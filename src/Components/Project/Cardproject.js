@@ -28,7 +28,7 @@ function Cardproject(props) {
         </CardActionArea>
         <CardActions>
           <Button size='small' color='primary'>
-            <GitHubIcon sx={{color:"black"}} />
+          <a href={props.linkUrl} target="_blank" rel="noreferrer"><GitHubIcon sx={{color:"black"}} /></a>
           </Button>
         </CardActions>
       </Card>

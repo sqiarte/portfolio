@@ -7,6 +7,10 @@ import MenuItem from "@mui/material/MenuItem";
 import { ListItem } from "@mui/material";
 // import { Link } from "react-router-dom";
 // import {useEffect} from 'react'
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import EmailIcon from '@mui/icons-material/Email';
+import DescriptionIcon from '@mui/icons-material/Description';
 
 function Navbar() {
   //   const [choose, setChoose] = useState();
@@ -63,7 +67,7 @@ function Navbar() {
               }}
               onClick={handleClose}
             >
-              Email ✉️
+              <EmailIcon sx={{color:'grey', paddingRight:1}}/> Email 
             </MenuItem>
             </a>
             <a href={linkedinUrl} target="_blank" rel="noreferrer">
@@ -76,7 +80,7 @@ function Navbar() {
               }}
               onClick={handleClose}
             >
-              LinkedIn 🖇️
+              <LinkedInIcon sx={{color:'grey', paddingRight:1}}/> LinkedIn 
               
             </MenuItem>
             </a>
@@ -90,7 +94,7 @@ function Navbar() {
               }}
               onClick={handleClose}
             >
-              GitHub 💾
+              <GitHubIcon sx={{color:'grey', paddingRight:1}} /> GitHub 
             </MenuItem>
             </a>
             <a href={cvUrl} target="_blank" rel="noreferrer">
@@ -103,7 +107,7 @@ function Navbar() {
               }}
               onClick={handleClose}
             >
-              CV 📃
+              <DescriptionIcon sx={{color:'grey', paddingRight:1}} /> CV 
             </MenuItem>
             </a>
           </Menu>

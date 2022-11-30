@@ -19,23 +19,29 @@
 }
 
 .textone {
-  font-size: 70px;
+  font-size: 120px;
+  /* -webkit-text-stroke: 0.01px #ede8e8; */
   font-family: 'Chewy';
   letter-spacing: 5px;
   padding: 5px 2px 5px 5px;
-  margin: 5px;
+  margin: 0px;
   background: -webkit-linear-gradient(#2f2c2c, #eeeeee);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: 
-  typing 2s steps(16, end) forwards;
+  typing 2s steps(10, end) ;
   border-right: .10em solid rgb(110, 97, 97);
+}
+
+.textone1 {
+  display: none;
 }
 
 .textone:hover {
   background: -webkit-linear-gradient(#652e2e, #eeeeee);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  cursor: pointer;
 }
 
 @keyframes typing {
@@ -55,7 +61,7 @@
 .textthree {
   font-family: chewy;
   letter-spacing: 2px;
-  font-size: 20px;
+  font-size: 24px;
   padding: 0px 20px;
   margin: 0px;
   background: -webkit-linear-gradient(#472117, #da7a02);
@@ -64,7 +70,7 @@
 }
 
 .btn {
-    padding: 50px 100px;
+    padding: 50px 20px;
 }
 
 .rightcon {
@@ -87,17 +93,30 @@
 
 @media only screen and (max-width: 600px) {
   .textone {
-    font-size: 40px;;
+    font-size: 60px;;
     letter-spacing: 2px;
     text-align: center;
     margin: 10px;
   }
 
+  .leftcon {
+    height: 100vh;
+  }
+
+  .textone1 {
+    display: flex;
+    font-size: 60px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 10px;
+    justify-content: center;
+  }
+
   .textthree {
-    font-size: 15px;
+    font-size: 14px;
     letter-spacing: 1px;
     text-align: center;
-    padding: 30px 0px;
+    padding: 20px 0px;
   }
 
   .rightcon {
@@ -113,6 +132,7 @@
     padding: 0px;
     display: flex;
     justify-content: center;
+    margin: 50px;
   }
   
   .content {
@@ -138,7 +158,7 @@
   }
 
   .textthree {
-    font-size: 15px;
+    font-size: 24px;
     letter-spacing: 1px;
     text-align: center;
     padding: 30px 0px;
@@ -148,5 +168,11 @@
     display: flex;
     justify-content: center;
     height: auto;
+  }
+
+  .btn {
+    padding: 0px;
+    display: flex;
+    justify-content: center;
   }
 }

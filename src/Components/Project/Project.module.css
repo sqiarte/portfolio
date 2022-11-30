@@ -20,6 +20,15 @@
   font-family: chewy;
   font-size: 48px;
   letter-spacing: 2px;
+  background: -webkit-linear-gradient(#0a1755, #3e3e3e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.projecthead:hover {
+  background: -webkit-linear-gradient(red, #3e3e3e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .projectcontainer {
@@ -47,6 +56,12 @@
     letter-spacing: 1px;
   }
 
+  .bigproject {
+    height: auto;
+  }
+ }
+
+ @media only screen and (max-width: 1200px) { 
   .bigproject {
     height: auto;
   }
