@@ -1,0 +1,98 @@
+.skillcontainer {
+  padding: 0px 0px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* background: white; */
+  height: 100vh;
+  background-image: url("../../img/bg-02-00-PhotoRoom.jpg");
+  background-size: 1950px;
+}
+
+.box {
+  margin: 50px;
+  color: black;
+  width: 70%;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item {
+  width: 90px;
+  margin: 20px;
+  padding: 0px;
+  font-size: 48px;
+  font-family: kanit;
+  display: grid;
+  justify-content: center;
+  box-shadow: 5px 5px #423d3d;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.icon {
+  width: 90px;
+}
+
+.icon:hover {
+  background-color: white;
+  border-radius: 10px;
+  padding: 0px 15px;
+  transition: padding 1s;
+}
+
+.skillhead {
+  text-align: center;
+  font-size: 50px;
+  font-family: chewy;
+  letter-spacing: 3px;
+  padding: 5px;
+  /* margin: 5px; */
+  margin: 100px 0px;
+  color: black;
+}
+
+@media only screen and (max-width: 600px) {
+  .item, .icon {
+    width: 50px;
+  }
+  .skillhead {
+    font-size: 20px;
+    margin: 5px 0px;
+  }
+  .skillcontainer {
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: auto;
+  }
+
+  .box {
+    margin: 5px;
+    color: black;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 800px) { 
+  .item, .icon {
+    width: 70px;
+  }
+  .skillhead {
+    font-size: 40px;
+    margin: 5px 0px;
+  }
+  .skillcontainer {
+    padding: 30px 0px;
+  }
+
+  .box {
+    margin: 10px;
+    width: 100%;
+  }
+}

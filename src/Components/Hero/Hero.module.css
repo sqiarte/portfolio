@@ -1,0 +1,152 @@
+.container {
+  background: #fbfafb;
+  background-image: url("../../img/bg-02-00-PhotoRoom.jpg"); 
+  background-size: 1950px;
+  height: 100vh;
+}
+
+.content {
+  padding: 50px 50px 100px;
+  display: flex;
+  justify-content: center;
+  width: 70%;
+}
+
+.leftcon {
+  display: box;
+  padding: 50px;
+  margin: 50px 0px;
+}
+
+.textone {
+  font-size: 70px;
+  font-family: 'Chewy';
+  letter-spacing: 5px;
+  padding: 5px 2px 5px 5px;
+  margin: 5px;
+  background: -webkit-linear-gradient(#2f2c2c, #eeeeee);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: 
+  typing 2s steps(16, end) forwards;
+  border-right: .10em solid rgb(110, 97, 97);
+}
+
+.textone:hover {
+  background: -webkit-linear-gradient(#652e2e, #eeeeee);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes typing {
+  from { width: 0% }
+  to { width: 100% }
+}
+
+.texttwo {
+    font-size: 18px;
+    padding: 0px 20px;
+    margin: 0px;
+    background: -webkit-linear-gradient(#472117, #da7a02);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+.textthree {
+  font-family: chewy;
+  letter-spacing: 2px;
+  font-size: 20px;
+  padding: 0px 20px;
+  margin: 0px;
+  background: -webkit-linear-gradient(#472117, #da7a02);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn {
+    padding: 50px 100px;
+}
+
+.rightcon {
+  display: box;
+  position: relative;
+  padding: 0px;
+  margin: 50px 0px;
+}
+
+.catimg {
+  border-radius: 50%;
+  position: absolute;
+  top: 50px;
+  width: 300px;
+}
+
+.catimg:hover {
+  width: 400px;
+}
+
+@media only screen and (max-width: 600px) {
+  .textone {
+    font-size: 40px;;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 10px;
+  }
+
+  .textthree {
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 30px 0px;
+  }
+
+  .rightcon {
+    display: none;
+  }
+
+  .leftcon {
+    padding : 10px;
+    margin : 20px;
+  }
+
+  .btn {
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .content {
+    padding: 0px;
+    width: 90%;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    height: auto;
+  }
+  
+}
+
+@media only screen and (max-width: 800px) {
+  .rightcon {
+    display: none;
+  }
+
+  .textone {
+   text-align: center;
+  }
+
+  .textthree {
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 30px 0px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    height: auto;
+  }
+}
