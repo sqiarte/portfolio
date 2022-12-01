@@ -1,6 +1,6 @@
 .container {
   background: #fbfafb;
-  background-image: url("../../img/bg-02-00-PhotoRoom.jpg"); 
+  background-image: url("../../img/bg-real.jpg"); 
   background-size: 1950px;
   height: 100vh;
 }
@@ -19,7 +19,7 @@
 }
 
 .textone {
-  font-size: 120px;
+  font-size: 140px;
   /* -webkit-text-stroke: 0.01px #ede8e8; */
   font-family: 'Chewy';
   letter-spacing: 5px;
@@ -49,19 +49,10 @@
   to { width: 100% }
 }
 
-.texttwo {
-    font-size: 18px;
-    padding: 0px 20px;
-    margin: 0px;
-    background: -webkit-linear-gradient(#472117, #da7a02);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-
 .textthree {
   font-family: chewy;
   letter-spacing: 2px;
-  font-size: 24px;
+  font-size: 28px;
   padding: 0px 20px;
   margin: 0px;
   background: -webkit-linear-gradient(#472117, #da7a02);
@@ -116,7 +107,7 @@
     font-size: 14px;
     letter-spacing: 1px;
     text-align: center;
-    padding: 20px 0px;
+    padding: 20px 5px;
   }
 
   .rightcon {
@@ -155,19 +146,21 @@
 
   .textone {
    text-align: center;
+   padding: 20px;
+   font-size: 120 px;
   }
 
   .textthree {
     font-size: 24px;
     letter-spacing: 1px;
     text-align: center;
-    padding: 30px 0px;
+    padding: 30px 5px;
   }
 
   .container {
     display: flex;
     justify-content: center;
-    height: auto;
+    height: 100vh;
   }
 
   .btn {

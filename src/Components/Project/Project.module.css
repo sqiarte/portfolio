@@ -4,7 +4,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url("../../img/bg-02-00-PhotoRoom.jpg");
+  background-image: url("../../img/bg-real.jpg"); 
   background-size: 1950px;
   height: 100vh;
 }

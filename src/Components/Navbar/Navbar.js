@@ -64,6 +64,7 @@ function Navbar() {
                 width: 150,
                 fontFamily: "chewy",
                 color: "#a38a40",
+                paddingRight:0,
               }}
               onClick={handleClose}
             >

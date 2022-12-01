@@ -4,7 +4,7 @@
   justify-content: center;
   flex-wrap: wrap;
   height: 100vh;
-  background-image: url("../../img/bg-02-00-PhotoRoom.jpg");
+  background-image: url("../../img/bg-real.jpg"); 
   background-size: 1950px;
 }
 
@@ -41,7 +41,7 @@
   background-color: white;
   border-radius: 10px;
   padding: 0px 15px;
-  transition: padding 1s;
+  transition: padding 0.3s;
 }
 
 .skillhead {
