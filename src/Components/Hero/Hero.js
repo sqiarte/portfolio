@@ -2,13 +2,13 @@ import React from "react";
 import style from "./Hero.module.css";
 import Mycat from "../../img/mycat3.png";
 import Button from "@mui/material/Button";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 // import EmailIcon from "@mui/icons-material/Email";
 
 function Hero() {
   const [buttonIcon, setButtonIcon] = useState("✉️");
   const [name, setName] = useState("SUEBKWAN");
-  const [url, setUrl] = useState()
+  const [url, setUrl] = useState();
 
   const clickGreen = () => {
     if (buttonIcon === "✉️") {
@@ -18,9 +18,9 @@ function Hero() {
     } else if (buttonIcon === "linkedin.com/in/suebkwan") {
       setButtonIcon("github.com/sqiarte");
     } else if (buttonIcon === "github.com/sqiarte") {
-      setButtonIcon ("Suebkwan's CV 📃")
+      setButtonIcon("Suebkwan's CV 📃");
     } else {
-      myCV ();
+      myCV();
     }
   };
 
@@ -32,10 +32,11 @@ function Hero() {
     }
   };
 
-  const linkUrl = "https://drive.google.com/file/d/1mRyaR1X8sV0waC5SbqG-KuLigpxYu5LM/view?usp=sharing"
+  const linkUrl =
+    "https://drive.google.com/file/d/1mRyaR1X8sV0waC5SbqG-KuLigpxYu5LM/view?usp=sharing";
   const myCV = () => {
-    setUrl(linkUrl)
-  }
+    setUrl(linkUrl);
+  };
 
   return (
     <div className={style.container}>
@@ -50,15 +51,15 @@ function Hero() {
             developer.
           </h3>
           <div className={style.btn}>
-          <a href={url} target="_blank" rel="noreferrer">
-            <Button
-              sx={{ paddingLeft: 5, paddingRight: 5, fontWeight: "bold" }}
-              variant='contained'
-              color='success'
-              onClick={clickGreen}
-            >
-              {buttonIcon}
-            </Button>
+            <a href={url} target='_blank' rel='noreferrer'>
+              <Button
+                sx={{ paddingLeft: 5, paddingRight: 5, fontWeight: "bold" }}
+                variant='contained'
+                color='success'
+                onClick={clickGreen}
+              >
+                {buttonIcon}
+              </Button>
             </a>
           </div>
         </div>
