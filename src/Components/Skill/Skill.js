@@ -11,6 +11,7 @@ import icongit from "../../icon/git.png";
 
 function Skill() {
   return (
+    <div className={style.out}>
     <div className={style.skillcontainer} id="skill">
       <div className={style.box}>
         <h1 className={style.skillhead}>My skills</h1>
@@ -89,6 +90,7 @@ function Skill() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }

@@ -39,6 +39,7 @@ function Hero() {
   };
 
   return (
+    <div className={style.out}>
     <div className={style.container}>
       <div className={style.content}>
         <div className={style.leftcon}>
@@ -68,6 +69,7 @@ function Hero() {
           <img className={style.catimg} src={Mycat} alt='my beloved cat'></img>
         </div>
       </div>
+    </div>
     </div>
   );
 }

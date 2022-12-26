@@ -1,8 +1,14 @@
+.out {
+  background-color: #FFFEF1;
+  /* padding: 50px; */
+}
+
 .container {
   background: #fbfafb;
-  background-image: url("../../img/bg-real.jpg"); 
+  background-image: url("../../img/bg-02-00-PhotoRoom.jpg"); 
   background-size: 1950px;
   height: 100vh;
+  border-radius: 10px;
 }
 
 .content {
@@ -25,7 +31,7 @@
   letter-spacing: 5px;
   padding: 5px 2px 5px 5px;
   margin: 0px;
-  background: -webkit-linear-gradient(#2f2c2c, #eeeeee);
+  background: -webkit-linear-gradient(#2f0951, #3f3939);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: 
@@ -52,7 +58,7 @@
 .textthree {
   font-family: chewy;
   letter-spacing: 2px;
-  font-size: 28px;
+  font-size: 32px;
   padding: 0px 20px;
   margin: 0px;
   background: -webkit-linear-gradient(#472117, #da7a02);
@@ -83,6 +89,10 @@
 }
 
 @media only screen and (max-width: 650px) {
+  .out {
+    padding: 0px;
+  }
+
   .textone {
     font-size: 60px;;
     letter-spacing: 2px;
@@ -140,6 +150,10 @@
 }
 
 @media only screen and (max-width: 820px) {
+  .out {
+    padding: 0px;
+  }
+  
   .rightcon {
     display: none;
   }

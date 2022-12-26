@@ -3,7 +3,7 @@ import Navbar from "../Navbar/Navbar";
 import Hero from "../Hero/Hero";
 import Skill from "../Skill/Skill";
 import Project from "../Project/Project";
-// import Footer from '../Footer/Footer';
+import Footer from '../Footer/Footer';
 
 function App() {
   return (
@@ -12,6 +12,7 @@ function App() {
       <Hero />
       <Skill />
       <Project />
+      <Footer />
     </div>
   );
 }

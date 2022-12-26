@@ -1,12 +1,18 @@
+.out {
+  background-color: #FFFEF1;
+  padding: 20px 0px;
+}
 
 .bigproject {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url("../../img/bg-real.jpg"); 
+  background-image: url("../../img/bg-02-00-PhotoRoom.jpg"); 
+  /* background-color: #FFFEF1; */
   background-size: 1950px;
   height: 100vh;
+  border-radius: 10px;
 }
 
 .cardhead {
@@ -40,6 +46,10 @@
 
 
 @media only screen and (max-width: 600px) { 
+  .out {
+    padding: 0px;
+  }
+  
   .projecthead {
     font-size: 20px;
     letter-spacing: 1px;
@@ -51,6 +61,10 @@
 }
 
 @media only screen and (max-width: 800px) {
+  .out {
+    padding: 0px;
+  }
+  
   .projecthead {
     font-size: 40px;
     letter-spacing: 1px;

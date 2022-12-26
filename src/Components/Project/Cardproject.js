@@ -6,6 +6,7 @@ import Typography from "@mui/material/Typography";
 import { Button, CardActionArea, CardActions } from "@mui/material";
 import style from './Project.module.css'
 import GitHubIcon from '@mui/icons-material/GitHub';
+import LaunchIcon from '@mui/icons-material/Launch';
 
 function Cardproject(props) {
   return (
@@ -28,7 +29,10 @@ function Cardproject(props) {
         </CardActionArea>
         <CardActions>
           <Button size='small' color='primary'>
-          <a href={props.linkUrl} target="_blank" rel="noreferrer"><GitHubIcon sx={{color:"black"}} /></a>
+          <a href={props.linkGithub} target="_blank" rel="noreferrer"><GitHubIcon sx={{color:"black"}} /></a>
+          </Button>
+          <Button size='small' color='primary'>
+          <a href={props.linkUrl} target="_blank" rel="noreferrer"><LaunchIcon sx={{color:"black"}} /></a>
           </Button>
         </CardActions>
       </Card>
