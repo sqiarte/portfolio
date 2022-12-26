@@ -48,7 +48,7 @@ function Navbar() {
             Contact 📃
           </ListItem>
           <Menu
-            sx={{ width: 150, backgroundColor: "#fffEf1" }}
+            // sx={{ width: 150, backgroundColor: "#fffEf1" }}
             id='basic-menu'
             anchorEl={anchorEl}
             open={open}
@@ -61,7 +61,7 @@ function Navbar() {
             <MenuItem
               sx={{
                 backgroundColor: "#fffEf1",
-                width: 150,
+                // width: 150,
                 fontFamily: "chewy",
                 color: "#a38a40",
                 paddingRight:0,
@@ -75,7 +75,7 @@ function Navbar() {
             <MenuItem
               sx={{
                 backgroundColor: "#fffEf1",
-                width: 150,
+                // width: 150,
                 fontFamily: "chewy",
                 color: "#a38a40",
               }}
@@ -89,7 +89,7 @@ function Navbar() {
             <MenuItem
               sx={{
                 backgroundColor: "#fffEf1",
-                width: 150,
+                // width: 150,
                 fontFamily: "chewy",
                 color: "#a38a40",
               }}
@@ -102,7 +102,7 @@ function Navbar() {
             <MenuItem
               sx={{
                 backgroundColor: "#fffEf1",
-                width: 150,
+                // width: 150,
                 fontFamily: "chewy",
                 color: "#a38a40",
               }}
